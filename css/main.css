@@ -519,6 +519,8 @@ h5 {
 
 .contact form .input-box input {
   width: 100%;
+  border-radius: 5cqh;
+  border-color: #471a1a;
 }
 
 .contact form textarea {
