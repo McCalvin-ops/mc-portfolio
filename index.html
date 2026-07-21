@@ -3,431 +3,432 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>McCalvin Dibakoane</title>
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/media.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+    <meta
+      name="description"
+      content="McCalvin Dibakoane — Full-Stack .NET Developer with 4+ years building banking, e-commerce, and web applications across South Africa."
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>McCalvin Dibakoane — Full-Stack .NET Developer</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Syne:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
 
   <body>
-    <div id="preloader">
-      <div class="jumping-dots">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
+    <div class="bg-fx" aria-hidden="true">
+      <div class="bg-orb bg-orb--a"></div>
+      <div class="bg-orb bg-orb--b"></div>
+      <div class="bg-grid"></div>
+      <div id="code-rain" class="code-rain"></div>
     </div>
 
-    <header id="header" class="header">
-      <div class="container container-lg">
-        <div class="header-nav">
-          <a href="#home" class="logo">McC<span>.</span><span>.</span>Dibakoane</a>
-          <nav id="nav" class="nav">
-            <ul class="nav-list">
-              <li class="nav-item">
-                <a href="#home" class="nav-link active">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="#about" class="nav-link">About</a>
-              </li>
-              <li class="nav-item">
-                <a href="#projects" class="nav-link">Works</a>
-              </li>
-              <li class="nav-item">
-                <a href="#contact" class="nav-link">Contact</a>
-              </li>
-            </ul>
-            <button id="nav-btn" class="nav-btn">
-              <img
-                id="nav-btn-img"
-                src="img/icons/open.svg"
-                alt="Navigation button"
-              />
-            </button>
-          </nav>
-        </div>
-      </div>
+    <header class="topbar">
+      <a href="#home" class="logo-chip"
+        ><span class="logo-dot"></span> McCalvin.dev</a
+      >
+      <nav class="topbar-nav" aria-label="Primary">
+        <a href="#contents">Contents</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button
+        id="nav-btn"
+        class="nav-btn"
+        type="button"
+        aria-label="Open menu"
+        aria-expanded="false"
+      >
+        <span></span><span></span>
+      </button>
     </header>
 
-    <section id="home" class="hero">
-      <div class="container container-lg">
-        <div
-          class="hero-row"
-          data-aos="fade-zoom-in"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="1800"
-          data-aos-duration="2000"
-        >
-          <div class="hero-content">
-            <span class="hero-greeting"> Hello, I am</span>
-            <h1 class="hero-heading">McCalvin Dibakoane</h1>
-            <span class="hero-heading-subtitle"
-              >Software Developer</span
-            >
-            <div class="about-social-list">
-              <div class="social-links-row">
-                <a href="https://github.com/McCalvin-ops">
-                  <img
-                    src="img/social_icons/github.svg"
-                    alt="Link to GitHub account"
-                  />
-                </a>
-
-                <a href="https://www.linkedin.com/in/mccalvin-dibakoane-5b5ba3125?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-                  <img
-                    src="img/social_icons/linkedin.svg"
-                    alt="Link to linkedin profile"
-                  />
-                </a>
-
-                <!-- <a href="#!">
-                  <img
-                    src="img/social_icons/xing.svg"
-                    alt="Link to Xing profile"
-                  />
-                </a> -->
-
-                <a href="#!">
-                  <img
-                    src="img/social_icons/facebook.svg"
-                    alt="Link to facebook profile"
-                /></a>
-                <a href="#!">
-                  <img
-                    src="img/social_icons/instagram.svg"
-                    alt="Link to instagram profile"
-                /></a>
-              </div>
-            </div>
-
-            <div>
-              <a href="#projects" class="btn">My Portfolio</a>
-              <a href="#contact" class="btn btn-white">Contact Me</a>
-            </div>
-          </div>
-          <div class="hero-img">
-            <img
-              src="img/hero/hero.png"
-              alt="Picture of Christian Buehner taken from Unsplash</a>
-              "
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="about">
-      <div class="container">
-        <div class="about-title">
-          <h2 class="title">About Me</h2>
-        </div>
-        <div class="about-row">
-          <div class="about-content">
-            <p class="about-descr">
-              I am a passionate software developer with a strong background in web development. Currently, I work as a Junior Web
-              Developer at Esquire Technologies, where I specialize in developing e-commerce sites using C#, React, and SQL Server. I
-              provide support for all e-commerce sites and end users, ensuring smooth and efficient operations. <br />
-              <br />
-              With a focus on backend and frontend development, I excel at utilizing modern technologies and frameworks to deliver
-              high-quality solutions. I take pride in my ability to troubleshoot issues, optimize performance, and continuously learn
-              new skills to stay at the forefront of the industry.
-            </p>
-            <div class="about-download-btn">
-              <a href="https://mccalvin-ops.github.io/mc-portfolio/McCalvin Dibakoane CV.pdf" class="btn btn-white" target="_blank" download>Download CV</a>
-            </div>
-          </div>
-          <div class="about-skills">
-            <div class="skill">
-              <div class="skill-title">Web design</div>
-              <div class="skill-percent">95%</div>
-              <div class="skillbar" style="width: 95%"></div>
-            </div>
-            <div class="skill">
-              <div class="skill-title">HTML/CSS</div>
-              <div class="skill-percent">90%</div>
-              <div class="skillbar" style="width: 90%"></div>
-            </div>
-            <div class="skill">
-              <div class="skill-title">JavaScript</div>
-              <div class="skill-percent">65%</div>
-              <div class="skillbar" style="width: 65%"></div>
-            </div>
-            <div class="skill">
-              <div class="skill-title">Photo Shop</div>
-              <div class="skill-percent">80%</div>
-              <div class="skillbar" style="width: 80%"></div>
-            </div>
-          </div>
-        </div>
-        <div class="services-row">
-          <div class="service-card" data-aos="fade-down">
-            <img class="service-card-img" src="img/services/02.svg" alt="Frontend Development Icon" />
-            <h3 class="service-card-title">Frontend Development</h3>
-            <p>
-              I specialize in creating responsive and visually stunning front-end solutions using technologies like React,
-              Vue.js, HTML, CSS, and JavaScript.
-            </p>
-          </div>
-        
-          <div class="service-card" data-aos="fade-down">
-            <img class="service-card-img" src="img/services/02.svg" alt="Backend Development Icon" />
-            <h3 class="service-card-title">Backend Development</h3>
-            <p>
-              I build robust back-end systems with technologies like ASP.NET Core, Node.js, Python, and PHP, ensuring high
-              performance and security.
-            </p>
-          </div>
-        
-          <div class="service-card" data-aos="fade-down">
-            <img class="service-card-img" src="img/services/02.svg" alt="Full Stack Development Icon" />
-            <h3 class="service-card-title">Full Stack Development</h3>
-            <p>
-              My full-stack development services cover both front-end and back-end, allowing me to create complete web
-              applications using technologies like MERN stack, MEAN stack, and .NET.
-            </p>
-          </div>
-        
-          <div class="service-card" data-aos="fade-down">
-            <img class="service-card-img" src="img/services/02.svg" alt="WordPress Development Icon" />
-            <h3 class="service-card-title">WordPress Development</h3>
-            <p>
-              I design and develop custom WordPress websites, themes, and plugins tailored to your business needs, ensuring easy
-              content management and seamless user experience.
-            </p>
-          </div>
-        
-          <div class="service-card" data-aos="fade-down">
-            <img class="service-card-img" src="img/services/03.svg" alt="ASP.NET Core Development Icon" />
-            <h3 class="service-card-title">ASP.NET Core Development</h3>
-            <p>
-              Leverage the power of ASP.NET Core to build scalable and secure web applications. I specialize in building
-              API-driven systems and enterprise-level applications.
-            </p>
-          </div>
-        
-          <div class="service-card" data-aos="fade-down">
-            <img class="service-card-img" src="img/services/01.svg" alt="E-commerce Solutions Icon" />
-            <h3 class="service-card-title">E-commerce Solutions</h3>
-            <p>
-              I provide comprehensive e-commerce solutions using platforms like WooCommerce, Shopify, and custom solutions,
-              ensuring smooth online transactions and user-friendly designs.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section id="projects" class="projects">
-      <div class="container container-lg">
-        <div class="projects-title">
-          <h2 class="title">Works</h2>
-        </div>
-
-        <div class="projects-row">
-          <div class="project-box">
-            <a href="https://www.esquire.co.za" target="_blank">
-              <img class="project-img" src="img/works/EsquireWeb.png" alt="" />
-              <div class="project-mask">
-                <div class="project-caption">
-                  <h5 class="white">Esquire Main E-commerce Website</h5>
-                  <p class="white">Front-End Developer</p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="project-box">
-            <a href="https://www.dopedealz.co.za" target="_blank">
-              <img class="project-img" src="img/works/DopeDealzPic.png" alt="" />
-              <div class="project-mask">
-                <div class="project-caption">
-                  <h5 class="white">DopeDealz Reseller Website</h5>
-                  <p class="white">Web Development</p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="project-box">
-            <a href="https://www.initiumventure.com" target="_blank">
-              <img class="project-img" src="img/works/InitiumWebsite.png" alt="" />
-              <div class="project-mask">
-                <div class="project-caption">
-                  <h5 class="white">Initium Venture Solutions Website</h5>
-                  <p class="white">WordPress, Web Development</p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="project-box">
-            <a href="https://www.qualitysafetysupply.co.za" target="_blank">
-              <img class="project-img" src="img/works/QualitySafetySupply.png" alt="" />
-              <div class="project-mask">
-                <div class="project-caption">
-                  <h5 class="white">Quality Safety Supply Website</h5>
-                  <p class="white">WordPress, Web Development</p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="project-box">
-            <a href="https://www.agrivic.com" target="_blank">
-              <img class="project-img" src="img/works/Agrivic.png" alt="" />
-              <div class="project-mask">
-                <div class="project-caption">
-                  <h5 class="white">Agrivic Website</h5>
-                  <p class="white">WordPress, UI/UX Design, Web Development</p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="project-box">
-            <a href="https://www.sizanethemba.co.za" target="_blank">
-              <img class="project-img" src="img/works/Sizanethemba.png" alt="" />
-              <div class="project-mask">
-                <div class="project-caption">
-                  <h5 class="white">Sizanethemba WordPress Website</h5>
-                  <p class="white">WordPress, Web Development</p>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="contact">
-      <div class="container">
-        <div class="contact-title">
-          <h2 class="title">Contact</h2>
-        </div>
-        <div class="contact-content">
-          <p>
-            Get in touch with us! <br />
-            We’d love to hear from you.
-          </p>
-        </div>
-    
-        <!-- Contact Cards in a single row -->
-        <div class="contact-cards">
-          <!-- Card 1: Email -->
-          <div class="contact-card">
-            <div class="contact-icon">
-              <i class="fas fa-envelope"></i> <!-- Email icon -->
-            </div>
-            <div class="contact-info">
-              <a href="mailto:tervincalvin@gmail.com" class="contact-link">
-                <h3>Email</h3>
-                <p>tervincalvin@gmail.com</p>
-              </a>
-            </div>
-          </div>
-    
-          <!-- Card 2: Phone -->
-          <div class="contact-card">
-            <div class="contact-icon">
-              <i class="fas fa-phone-alt"></i> <!-- Phone icon -->
-            </div>
-            <div class="contact-info">
-              <a href="tel:+27608788114" class="contact-link">
-                <h3>Phone Number</h3>
-                <p>060 878 8114</p>
-              </a>
-            </div>
-          </div>
-    
-          <!-- Card 3: WhatsApp -->
-          <div class="contact-card">
-            <div class="contact-icon">
-              <i class="fab fa-whatsapp"></i> <!-- WhatsApp icon -->
-            </div>
-            <div class="contact-info">
-              <a href="https://wa.me/27608788114" class="contact-link" target="_blank">
-                <h3>WhatsApp</h3>
-                <p>060 878 8114</p>
-              </a>
-            </div>
-          </div>
-    
-          <!-- Card 4: Address -->
-          <div class="contact-card">
-            <div class="contact-icon">
-              <i class="fas fa-map-marker-alt"></i> <!-- Address icon -->
-            </div>
-            <div class="contact-info">
-              <a href="https://www.google.com/maps?q=440+Reverend+RTJ+Namane+Drive,+Tembisa+1632" class="contact-link"
-                target="_blank">
-                <h3>Address</h3>
-                <p>440 Reverend RTJ Namane Drive, Tembisa 1632</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-row">
-          <div class="social-links-row footer-social">
-            <a href="#!">
-              <img
-                src="img/social_icons/github.svg"
-                alt="Link to GitHub account"
-              />
-            </a>
-
-            <a href="#!">
-              <img
-                src="img/social_icons/linkedin.svg"
-                alt="Link to linkedin profile"
-              />
-            </a>
-
-            <a href="#!">
-              <img src="img/social_icons/xing.svg" alt="Link to Xing profile" />
-            </a>
-
-            <a href="#!">
-              <img
-                src="img/social_icons/facebook.svg"
-                alt="Link to facebook profile"
-            /></a>
-
-            <a href="#!">
-              <img
-                src="img/social_icons/instagram.svg"
-                alt="Link to instagram profile"
-            /></a>
-          </div>
-
-          <div class="footer-copyright">
-            <p>&copy; Copyright McCalvin Dibakoane 2024 | Designed by McCalvin Dibakoane</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <div id="goToTop" class="goToTop">
-      <a href="#home">
-        <img src="img/icons/arrow_up.svg" alt="Back to top"
-      /></a>
+    <div id="mobile-nav" class="mobile-nav" hidden>
+      <a href="#home">Home</a>
+      <a href="#contents">Contents</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
     </div>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
-      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    <main>
+      <section id="home" class="panel intro">
+        <div class="intro-stage">
+          <div class="intro-copy">
+            <p class="terminal-line">
+              <span class="term-prompt">&gt;</span>
+              <span id="typed-line"></span><span class="cursor-blink">|</span>
+            </p>
+            <h1 class="intro-name">
+              McCalvin<br /><span class="name-accent">Dibakoane</span>
+            </h1>
+            <p class="intro-lede">
+              Full-Stack .NET Developer crafting banking systems, e-commerce,
+              and sharp web products across South Africa.
+            </p>
+            <div class="intro-actions">
+              <a href="#work" class="btn-neon">View work</a>
+              <a href="#contact" class="btn-ghost">Let’s talk</a>
+            </div>
+            <div class="float-tags" aria-hidden="true">
+              <span>C#</span><span>.NET</span><span>Azure</span
+              ><span>React</span>
+            </div>
+          </div>
+
+          <div class="intro-art">
+            <div class="art-ring"></div>
+            <img
+              class="art-hero float-y"
+              src="img/anime/dev-hero-face.png"
+              alt="McCalvin Dibakoane coding illustration"
+            />
+            <img
+              class="art-photo"
+              src="img/hero/portrait.png"
+              alt="McCalvin Dibakoane"
+            />
+            <img
+              class="art-chibi float-y-delay"
+              src="img/anime/dev-chibi.png"
+              alt=""
+              aria-hidden="true"
+            />
+            <div class="code-bubble float-x">
+              <code>await ShipAsync();</code>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contents" class="panel contents reveal">
+        <div class="contents-left">
+          <p class="eyebrow">// navigate</p>
+          <h2 class="display-title">Table of<br />Contents.</h2>
+          <p class="contents-blurb">
+            4+ years shipping production systems. Currently at Mphoti Consulting
+            (e4) — banking apps for major South African financial institutions.
+          </p>
+          <a href="McCalvin__CV%20.pdf" class="btn-ghost" download
+            >Download CV ↗</a
+          >
+        </div>
+        <div class="contents-media">
+          <img src="img/anime/desk.png" alt="Anime coding desk illustration" />
+        </div>
+        <div class="contents-list">
+          <p class="list-label">SELECTED WORK:</p>
+          <ol>
+            <li><a href="#project-01">Banking Systems</a></li>
+            <li><a href="#project-02">Esquire Technologies</a></li>
+            <li><a href="#project-03">Quality Safety Supply</a></li>
+            <li><a href="#project-04">Vertexlabs</a></li>
+            <li><a href="#project-05">SA Home Loans</a></li>
+            <li><a href="#project-06">Sizanethemba</a></li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="about" class="panel about-strip reveal">
+        <div class="about-strip-copy">
+          <p class="eyebrow">// about</p>
+          <h2 class="display-title">Built different.</h2>
+          <div class="desc-box">
+            <h3>Summary</h3>
+            <p>
+              Full-Stack .NET Developer skilled in C#, .NET Core, ASP.NET Web
+              API, Azure, SQL Server, and React. Proven in financial services —
+              solutions for FNB, ABSA, Investec, Nedbank, and Bank of Namibia.
+            </p>
+          </div>
+          <ul class="skill-pills">
+            <li>C#</li>
+            <li>.NET Core</li>
+            <li>ASP.NET Web API</li>
+            <li>React.js</li>
+            <li>SQL Server</li>
+            <li>Azure</li>
+            <li>CI/CD</li>
+            <li>Entity Framework</li>
+            <li>WordPress</li>
+          </ul>
+        </div>
+        <div class="about-exp">
+          <article>
+            <span class="exp-year">2025 – Present</span>
+            <h3>.NET Developer</h3>
+            <p>Mphoti Consulting · Placed at e4</p>
+          </article>
+          <article>
+            <span class="exp-year">2024 – 2025</span>
+            <h3>Web Application Developer</h3>
+            <p>Esquire Technologies</p>
+          </article>
+          <article>
+            <span class="exp-year">2023 – 2024</span>
+            <h3>Junior Software Developer / IT Specialist</h3>
+            <p>Initium Venture Solutions</p>
+          </article>
+          <article>
+            <span class="exp-year">2016 – 2021</span>
+            <h3>National Diploma: IT (Software Development)</h3>
+            <p>Tshwane University of Technology</p>
+          </article>
+        </div>
+      </section>
+
+      <div id="work">
+        <section id="project-01" class="panel project reveal">
+          <div class="project-copy">
+            <h2 class="project-title">Banking Systems.</h2>
+            <span class="pill">Enterprise .NET</span>
+            <div class="desc-box">
+              <h3>Description</h3>
+              <p>
+                Enterprise banking applications and bonds management for FNB,
+                ABSA, Investec, Nedbank, and Bank of Namibia — .NET Core, C#,
+                Azure, and SQL Server.
+              </p>
+            </div>
+          </div>
+          <div class="project-visuals project-visuals--duo">
+            <div class="rounded-img banking-panel">
+              <span>FNB · ABSA · Investec</span>
+              <strong>Bonds &amp; Core Banking</strong>
+            </div>
+            <div class="rounded-img banking-panel banking-panel--alt">
+              <span>Nedbank · Bank of Namibia</span>
+              <strong>Azure · APIs · SQL</strong>
+            </div>
+          </div>
+          <footer class="project-foot">
+            <span>01</span>
+            <span>Mphoti Consulting / e4</span>
+            <span>2025 – Present</span>
+          </footer>
+        </section>
+
+        <section id="project-02" class="panel project reveal">
+          <div class="project-copy">
+            <h2 class="project-title">Esquire Technologies.</h2>
+            <span class="pill">E-Commerce Platform</span>
+            <div class="desc-box">
+              <h3>Description</h3>
+              <p>
+                Full-stack enterprise e-commerce at www.esquire.co.za — ASP.NET
+                Core, C#, React, APIs, data feeds, and high-traffic retail
+                support.
+              </p>
+            </div>
+            <a
+              href="https://www.esquire.co.za"
+              class="pill pill--outline"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Visit site ↗</a
+            >
+          </div>
+          <div class="project-visuals">
+            <div class="rounded-img rounded-img--lg">
+              <img
+                src="img/works/EsquireWeb.png"
+                alt="Esquire Technologies website"
+              />
+            </div>
+          </div>
+          <footer class="project-foot">
+            <span>02</span>
+            <span>Esquire Technologies</span>
+            <span>2024 – 2025</span>
+          </footer>
+        </section>
+
+        <section id="project-03" class="panel project reveal">
+          <div class="project-copy">
+            <h2 class="project-title">Quality Safety Supply.</h2>
+            <span class="pill">Safety Training Platform</span>
+            <div class="desc-box">
+              <h3>Description</h3>
+              <p>
+                Site for Quality Safety Supply and Training — 175+ specialized
+                courses in lift truck, crane, construction safety, and OHS.
+              </p>
+            </div>
+            <a
+              href="https://www.qualitysafetysupply.co.za"
+              class="pill pill--outline"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Visit site ↗</a
+            >
+          </div>
+          <div class="project-visuals">
+            <div class="rounded-img rounded-img--lg">
+              <img
+                src="img/works/QualitySafetySupply-hero.png"
+                alt="Quality Safety Supply and Training website"
+              />
+            </div>
+          </div>
+          <footer class="project-foot">
+            <span>03</span>
+            <span>Quality Safety Supply</span>
+            <span>Web</span>
+          </footer>
+        </section>
+
+        <section id="project-04" class="panel project reveal">
+          <div class="project-copy">
+            <h2 class="project-title">Vertexlabs.</h2>
+            <span class="pill">AI Product Platform</span>
+            <div class="desc-box">
+              <h3>Description</h3>
+              <p>
+                Product marketing UI for Vertexlabs — AI platforms, model
+                control dashboards, and edge runtime metrics in a modern dark
+                experience.
+              </p>
+            </div>
+          </div>
+          <div class="project-visuals">
+            <div class="rounded-img rounded-img--lg">
+              <img src="img/works/Vertexlabs.png" alt="Vertexlabs website" />
+            </div>
+          </div>
+          <footer class="project-foot">
+            <span>04</span>
+            <span>Vertexlabs</span>
+            <span>Web</span>
+          </footer>
+        </section>
+
+        <section id="project-05" class="panel project reveal">
+          <div class="project-copy">
+            <h2 class="project-title">SA Home Loans.</h2>
+            <span class="pill">Financial Services</span>
+            <div class="desc-box">
+              <h3>Description</h3>
+              <p>
+                Supporting SA Home Loans systems and integrations in financial
+                services — bonds management and banking application delivery.
+              </p>
+            </div>
+          </div>
+          <div class="project-visuals">
+            <div class="rounded-img rounded-img--lg sahomeloans-panel">
+              <img src="img/works/SAHomeLoans.png" alt="SA Home Loans logo" />
+            </div>
+          </div>
+          <footer class="project-foot">
+            <span>05</span>
+            <span>SA Home Loans</span>
+            <span>.NET / Banking</span>
+          </footer>
+        </section>
+
+        <section id="project-06" class="panel project reveal">
+          <div class="project-copy">
+            <h2 class="project-title">Sizanethemba.</h2>
+            <span class="pill">WordPress</span>
+            <div class="desc-box">
+              <h3>Description</h3>
+              <p>
+                Community-focused WordPress site for Sizanethemba —
+                www.sizanethemba.co.za.
+              </p>
+            </div>
+            <a
+              href="https://www.sizanethemba.co.za"
+              class="pill pill--outline"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Visit site ↗</a
+            >
+          </div>
+          <div class="project-visuals">
+            <div class="rounded-img rounded-img--lg">
+              <img
+                src="img/works/Sizanethemba.png"
+                alt="Sizanethemba website"
+              />
+            </div>
+          </div>
+          <footer class="project-foot">
+            <span>06</span>
+            <span>Sizanethemba</span>
+            <span>Web</span>
+          </footer>
+        </section>
+      </div>
+
+      <section id="contact" class="panel contact reveal">
+        <p class="eyebrow">// contact</p>
+        <h2 class="display-title">Get in touch.</h2>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="contact-card-row">
+              <span>Email</span>
+              <a href="mailto:tervincalvin@gmail.com">tervincalvin@gmail.com ↗</a>
+            </div>
+            <div class="contact-card-row">
+              <span>Phone</span>
+              <a href="tel:+27608788114">+27 60 878 8114 ↗</a>
+            </div>
+            <div class="contact-card-row">
+              <span>WhatsApp</span>
+              <a
+                href="https://wa.me/27608788114"
+                target="_blank"
+                rel="noopener noreferrer"
+                >060 878 8114 ↗</a
+              >
+            </div>
+            <div class="contact-card-row">
+              <span>Location</span>
+              <span class="contact-plain">Gauteng, South Africa</span>
+            </div>
+          </div>
+          <div class="contact-card">
+            <p class="contact-card-label">Social media</p>
+            <a
+              href="https://github.com/McCalvin-ops"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub ↗</a
+            >
+            <a
+              href="https://www.linkedin.com/in/mccalvin-dibakoane-5b5ba3125"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn ↗</a
+            >
+            <a href="McCalvin__CV%20.pdf" download>Download CV ↗</a>
+          </div>
+          <div class="contact-photo">
+            <img src="img/anime/dev-chibi.png" alt="" />
+          </div>
+        </div>
+        <p class="contact-credit">
+          McCalvin Dibakoane — Full-Stack .NET Developer
+        </p>
+      </section>
+
+      <section class="panel thanks reveal">
+        <img
+          class="thanks-chibi float-y"
+          src="img/anime/dev-chibi.png"
+          alt=""
+          aria-hidden="true"
+        />
+        <span class="pill">McCalvin Dibakoane</span>
+        <h2 class="thanks-title">Thank you!</h2>
+        <p class="thanks-sub">console.log("Let's build something.");</p>
+        <a href="#home" class="btn-neon">Back to top</a>
+      </section>
+    </main>
+
     <script src="js/main.js"></script>
   </body>
 </html>
